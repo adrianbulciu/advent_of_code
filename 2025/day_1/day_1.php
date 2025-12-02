@@ -4,9 +4,6 @@ $turns = file("./input.txt", FILE_IGNORE_NEW_LINES);
 $start = 50;
 $result = 0;
 
-$start = 50;
-$result = 0;
-
 foreach ($turns as $turn) {
     $n = (int) substr($turn, 1);
 
